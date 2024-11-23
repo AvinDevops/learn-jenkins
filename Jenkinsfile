@@ -21,8 +21,8 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo This is build'
-                sh 'DEPLOY_TO'
-                sh 'GREETING'
+                sh 'env'
+                
             }
         }
         stage('Test') {
