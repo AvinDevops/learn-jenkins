@@ -37,7 +37,7 @@ pipeline {
                 echo "Toggle: ${params.TOGGLE}"
                 echo "choice: ${params.CHOICE}"
                 echo "password: ${params.PASSWORD}"
-                echo "triggered test"
+                echo "triggered test again"
             }
         }
     }
